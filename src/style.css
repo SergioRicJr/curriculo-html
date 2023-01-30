@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+  
+body{
+    background-color: #DFBD0B;
+    display: flex;
+    justify-content: center;
+}
+
+.Curriculo{
+    width: 60%;
+    min-height: 937px;
+    height: 100%;
+    display: flex;
+}
+
+.aba-esquerda{
+    background-color: #161414;
+    width: 30%;
+}
+
+.aba-esquerda img{
+    margin-top: 20%;
+    width: 85%;
+    border-radius: 50%;
+}
+
+.aba-direita{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+.nome{
+    padding: 13%;
+    margin-top: 10%;
+    background-color: #DFBD0B;
+}
+
+.cont-imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.info-curriculo{
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.empresa-data{
+    display: flex;
+    margin-top: 5%;
+}
+
+.empresa-data p{
+    margin-left: 20%;
+}
+
+.cargo{
+    margin: 10px;
+    margin-left: 0%;
+}
+
+.formacao-academica{
+    margin-top: 8%;
+    margin-left: 10%;
+}
