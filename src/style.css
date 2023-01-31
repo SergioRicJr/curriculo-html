@@ -11,7 +11,7 @@ body{
 
 .Curriculo{
     width: 60%;
-    height: 1600px;
+    height: 160vh;
     display: flex;
 }
 
@@ -33,20 +33,20 @@ body{
 
 .nome{
     margin-top: 12%;
-    height: 10%;
+    height: 15%;
     background-color: #DFBD0B;
 }
 
 .nome h1{
     padding-left: 5%;
     padding-top: 7%;
-    font-size: 50px;
+    font-size: 450%;
 }
 
 .nome h4{
     padding-left: 5%;
     padding-top: 2%;
-    font-size: 17px;
+    font-size: 165%;
 }
 
 .cont-imagem{
@@ -87,6 +87,10 @@ body{
     color: #ffffff;
 }
 
+.lista-formacao li{
+    padding-top: 3%;
+}
+
 .formacao-academica h1{
     color: #ffffff;
 }
@@ -95,23 +99,50 @@ body{
     padding: 1%;
 }
 
-.links{
+.links a{
+    padding: 5%;
+    background-color: #d9d9d9;
+    margin-top: 7%;
+    height: 10%;
+    width: 55%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+.links{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .informacoes-adicionais{
     margin-top: 20px;
 }
 
+.espaco-vazio{
+    width: 20%;
+    height: 100%;
+    background-color: #DFBD0B;
+}
 
-
+.info-titulo{
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
 
 .info-titulo-interno{
-    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+    padding-left: 2%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
 }
 
 .info-conteudo{
-    padding-left: 23%;
+    padding-left: 20%;
     color: #ffffff;
+
 }
