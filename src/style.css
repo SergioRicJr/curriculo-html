@@ -11,8 +11,7 @@ body{
 
 .Curriculo{
     width: 60%;
-    min-height: 937px;
-    height: 100%;
+    height: 1600px;
     display: flex;
 }
 
@@ -33,9 +32,21 @@ body{
 }
 
 .nome{
-    padding: 13%;
-    margin-top: 10%;
+    margin-top: 12%;
+    height: 10%;
     background-color: #DFBD0B;
+}
+
+.nome h1{
+    padding-left: 5%;
+    padding-top: 7%;
+    font-size: 50px;
+}
+
+.nome h4{
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 17px;
 }
 
 .cont-imagem{
@@ -49,9 +60,13 @@ body{
     padding-right: 10%;
 }
 
+.info-curriculo li{
+    padding-top: 2%;
+}
+
 .empresa-data{
     display: flex;
-    margin-top: 5%;
+    padding-top: 3%;
 }
 
 .empresa-data p{
@@ -66,4 +81,37 @@ body{
 .formacao-academica{
     margin-top: 8%;
     margin-left: 10%;
+}
+
+.lista-formacao{
+    color: #ffffff;
+}
+
+.formacao-academica h1{
+    color: #ffffff;
+}
+
+.espaco{
+    padding: 1%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes-adicionais{
+    margin-top: 20px;
+}
+
+
+
+
+.info-titulo-interno{
+    background-color: #ffffff;
+}
+
+.info-conteudo{
+    padding-left: 23%;
+    color: #ffffff;
 }
