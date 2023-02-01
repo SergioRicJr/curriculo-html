@@ -12,9 +12,10 @@ body, html{
 }
 
 .Curriculo{
-    width: 730px;
-    min-height: 105%;
+    width: 800px;
+    min-height: 135vh;
     display: flex;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .212);
 }
 
 .aba-esquerda{
@@ -33,16 +34,25 @@ body, html{
     background-color: rgb(255, 255, 255);
 }
 
+.cabecalho{
+    height: 235px;
+}
+
+.espaco-cabecalho{
+    background-color: #ffffff;
+    height: 29%;
+}
+
 .nome{
-    margin-top: 12%;
-    height: 11%;
+    height: 71%;
     background-color: #DFBD0B;
 }
+
 
 .nome h1{
     padding-left: 5%;
     padding-top: 7%;
-    font-size: 310%;
+    font-size: 3.1em;
 }
 
 .nome h4{
@@ -71,8 +81,8 @@ body, html{
     padding-top: 3%;
 }
 
-.empresa-data p{
-    margin-left: 20%;
+.empresa-data ul{
+    width: 60%;
 }
 
 .cargo{
@@ -124,6 +134,10 @@ body, html{
     align-items: center;
 }
 
+.links a:hover{
+    background-color: #a1a0a0;
+}
+
 .links{
     padding-top: 15%;
     display: flex;
@@ -162,4 +176,23 @@ body, html{
     padding-top: 2%;
     padding-bottom: 2%;
     color: #ffffff;
+}
+
+/*terminar compatibilizacao de versoes fulll hd e mobile*/
+@media screen and (min-width: 1900px) {
+    .Curriculo{
+        width: 1100px;
+    }
+    .cabecalho{
+        height: 320px;
+    }
+    .nome h1{
+        font-size: 4.2em;
+    }
+    .nome h4{
+        font-size: 1.6em;
+    }
+    #texto{
+        font-size: 1.5em;
+    }
 }
