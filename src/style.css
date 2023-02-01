@@ -1,17 +1,19 @@
+/* da pra usar display inline para fazer um do lado do outro*/
+/* gap separa elementos dentro da div*/  
 *{
     margin: 0;
     padding:  0;
 }
-  
-body{
+
+body, html{
     background-color: #DFBD0B;
     display: flex;
     justify-content: center;
 }
 
 .Curriculo{
-    width: 60%;
-    height: 160vh;
+    width: 730px;
+    min-height: 105%;
     display: flex;
 }
 
@@ -33,20 +35,20 @@ body{
 
 .nome{
     margin-top: 12%;
-    height: 15%;
+    height: 11%;
     background-color: #DFBD0B;
 }
 
 .nome h1{
     padding-left: 5%;
     padding-top: 7%;
-    font-size: 450%;
+    font-size: 310%;
 }
 
 .nome h4{
     padding-left: 5%;
     padding-top: 2%;
-    font-size: 165%;
+    font-size: 120%;
 }
 
 .cont-imagem{
@@ -80,7 +82,8 @@ body{
 
 .formacao-academica{
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 12%;
+    padding-right: 0%;
 }
 
 .lista-formacao{
@@ -88,25 +91,37 @@ body{
 }
 
 .lista-formacao li{
-    padding-top: 3%;
+    padding-top: 4%;
+    padding-right: 2%;
 }
 
 .formacao-academica h1{
+    padding-top: 7%;
+    padding-right: 0;
+    margin-right: 0;
     color: #ffffff;
+    font-size: 190%;
+}
+
+.formacao-academica hr{
+    border: 0 none #DFBD0B;
+    border-bottom: 1px solid #DFBD0B;
+    border-top: 1px solid #DFBD0B;
 }
 
 .espaco{
     padding: 1%;
 }
-
+/* display flex ja ajusta proporcao, n permite percentual*/
 .links a{
     padding: 5%;
-    background-color: #d9d9d9;
+    background-color: #e1e0e0;
     margin-top: 7%;
-    height: 10%;
-    width: 55%;
+    width: 60%;
     display: flex;
+    height: 40%;
     justify-content: center;
+    align-items: center;
 }
 
 .links{
@@ -133,16 +148,18 @@ body{
 }
 
 .info-titulo-interno{
+    color: #ffffff;
     width: 80%;
     height: 100%;
     padding-left: 2%;
-    background-color: rgb(255, 255, 255);
+    background-color: #444343;
     display: flex;
     align-items: center;
 }
 
 .info-conteudo{
     padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: #ffffff;
-
 }
