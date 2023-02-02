@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .212);
+}
+
+.corpo-site{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cabecalho{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+
+}
+
+.nome{
+    width: 48%;
+    margin-top: 25px;
+    font-family: 'Bungee', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.redes-sociais{
+    margin-top: 25px;
+}
+
+.redes-sociais a{
+    border-left: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.linha{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 0 none #be14cd;
+    border-bottom: 1px solid #c40be9;
+    border-top: 4px solid #910cce;
+    border-radius: 3px;
+} 
+
+.conteudo{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 0% 0% 20px 20px;
+}
+
+.img{
+    height: 65%;
+    padding-top: 8%;
+    padding-left: 5%;
+}
+
+.area-da-carta{
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    width: 600px;
+    height: 450px;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+@keyframes gradient {
+0%{
+    background-position: 0 50%;
+}
+
+50%{
+    background-position: 100% 50%;
+}
+
+100% {
+    background-position: 0 50%;
+}
+    
+}
