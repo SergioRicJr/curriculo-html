@@ -60,13 +60,19 @@ body{
 
 .redes-sociais a{
     font-size: 3.2vh;
-    padding-left: 2.2vh;
-    padding-right: 2.2vh;
+    padding-left: 2.4vh;
+    padding-right: 2.4vh;
     color: blueviolet;
     text-decoration: none;
 }
 
 .redes-sociais a:hover{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #ede5eb, #e73c7e, rgb(89, 31, 143), #6659f3) no-repeat;
+    background-size: 300% 100%;
+    transition: 0.5s;
+    border-radius: 30px;
+    color: #fff;
     transform: scale(1.2);
     top:-4px;
     text-shadow:0 4px 3px #999
@@ -121,7 +127,7 @@ body{
     flex-direction: column;
     align-items: center;
     animation: gradient 10s ease infinite;
-    background: linear-gradient(-45deg, #ede5eb, #e73c7e, rgb(48, 87, 197), #6659f3) no-repeat;
+    background: linear-gradient(-45deg, #ede5eb, #e73c7e, rgb(89, 31, 143), #6659f3) no-repeat;
     background-size: 300% 300%;
     min-width: 80vh;
     max-width: 80vh;
@@ -160,6 +166,7 @@ body{
     word-break: break-word;
     color: #fff;
     overflow-y: auto;
+    font-size: 1.2em;
 }
 
 ::-webkit-scrollbar{

@@ -1,5 +1,7 @@
 /* da pra usar display inline para fazer um do lado do outro*/
 /* gap separa elementos dentro da div*/  
+/*box sizing: border box define que o tamanho definido sera aquele ja somado com padding e margin*/
+
 *{
     margin: 0;
     padding:  0;
